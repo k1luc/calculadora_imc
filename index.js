@@ -18,6 +18,10 @@ button.addEventListener("click", (event) => {
     resultado.textContent = "Peso Normal";
   } else if (imc >= 25 && imc < 30) {
     resultado.textContent = "Sobrepeso";
+  } else if (imc >= 30 && imc < 35) {
+    resultado.textContent = "Obesidade Grau I";
+  } else if (imc >= 35 && imc < 40) {
+    resultado.textContent = "Obesidade Grau II";
   } else {
     resultado.textContent = "Obesidade Morbida";
   }
